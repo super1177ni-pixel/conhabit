@@ -1,0 +1,11 @@
+name: Cohabit
+main: kr.cohabit.CohabitPlugin
+version: 1.0.0
+api-version: '26.2'
+commands:
+  cohabit:
+    description: 불편한 동거 관리
+    aliases: [동거]
+permissions:
+  cohabit.admin:
+    default: op

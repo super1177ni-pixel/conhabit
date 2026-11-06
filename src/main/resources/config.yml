@@ -1,0 +1,48 @@
+# 인벤토리 36칸(0~35번)에 하나씩 대응되는 블록 36개
+# 해당 블록을 캐면 그 칸이 열립니다. (심층암 광석은 일반 광석과 같게 취급)
+unlock-blocks:
+  - OAK_LOG
+  - DIRT
+  - SAND
+  - GRAVEL
+  - STONE
+  - COAL_ORE
+  - IRON_ORE
+  - COPPER_ORE
+  - GOLD_ORE
+  - REDSTONE_ORE
+  - LAPIS_ORE
+  - DIAMOND_ORE
+  - EMERALD_ORE
+  - OBSIDIAN
+  - NETHERRACK
+  - SOUL_SAND
+  - GLOWSTONE
+  - NETHER_QUARTZ_ORE
+  - NETHER_GOLD_ORE
+  - ANCIENT_DEBRIS
+  - BIRCH_LOG
+  - SPRUCE_LOG
+  - JUNGLE_LOG
+  - ACACIA_LOG
+  - DARK_OAK_LOG
+  - CLAY
+  - SNOW_BLOCK
+  - PUMPKIN
+  - MELON
+  - HAY_BLOCK
+  - SUGAR_CANE
+  - CACTUS
+  - END_STONE
+  - MAGMA_BLOCK
+  - BASALT
+  - SANDSTONE
+
+# 시작할 때 블록-칸 연결을 무작위로 섞을지
+shuffle: true
+
+# 시작부터 열어둘 칸 (0~35). 기본은 전부 잠금
+initial-unlocked: []
+
+# 죽어도 공유 인벤토리를 유지할지
+keep-inventory-on-death: true
